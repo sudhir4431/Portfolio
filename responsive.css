@@ -1,0 +1,794 @@
+/* large tabs or ipad air */
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+    .container{
+        width: 1112px;
+    }
+
+    .nav_links li{
+        padding: 0px 45px
+    }
+
+    .imgg{
+        margin-top: 87px;
+    }
+
+    .line{
+        margin-left: 552px;
+    }
+
+    .wd p{
+        margin-left: -207px;
+        font-size: 20px;
+    }
+
+    .project2, .project4{
+        margin-top: 94px;
+    }
+
+    .cool p{
+        margin-right: 242px;
+    }
+
+    .Story{
+        margin-left: 538px;
+    }
+
+    .social2 img{
+        margin-left: 494px;
+    }
+}
+
+/* i-pad mini */
+
+@media only screen and (min-width:767px) and (max-width:1024px){
+    .container{
+        width: 969px;
+    }
+
+    .nav_links li{
+        padding: 0px 35px;
+    }
+
+    .imgg{
+        width: 39%;
+        margin-top: 145px;
+    }
+
+    .line{
+        margin-left: 465px;
+    }
+
+    .wd{
+        width: 24.7%;
+    }
+
+    .wd:nth-child(1){
+        margin-left: 10px;
+    }
+
+    .wd:nth-child(5){
+        margin-left: 11px;
+    }
+
+    .project2, .project4{
+        margin-top: 22px;
+    }
+
+    .layout, .seo, .high{
+        width: 32%;
+    }
+
+    .cool p{
+        margin-right: 156px;
+    }
+
+    .nav_links1 li, .nav_links2 li{
+        padding: 0px 38px;
+    }
+
+    .Story{
+        margin-left: 462px;
+        margin-top: -339px;
+    }
+
+    .btttn{
+        margin-left: 179px;
+    }
+
+    .social2 img{
+        margin-left: 403px;
+    }
+}
+
+/* For i-pad mini or mini tabs/ */
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    .container{
+        width: 725px;
+    }
+
+    li, a{
+        font-size: 18px;
+    }
+
+    .nav_links li{
+        padding: 0px 23px;
+    }
+
+    .bg{
+        height: 484px;
+    }
+
+    .self{
+        margin-top: 81px;
+    }
+
+    .self p{
+        font-size: 23px;
+    }
+
+    .line{
+        margin-left: 349px;
+    }
+
+    .imgg{
+        width: 48%;
+        margin-right: 0px;
+        margin-top: 111px;
+    }
+
+    .btn{
+        margin-left: 142px;
+    }
+
+    .wd:nth-child(1){
+        margin-left: 10px;
+    }
+
+    .webdesign{
+        width: 102%;
+    }
+
+    .wd{
+        width: 24.6%;
+    }
+
+    .wd h4{
+        margin-left: 39px;
+        margin-top: 10px;
+    }
+
+    .wd:nth-child(3) h4, .wd:nth-child(4) h4, .wd:nth-child(8) h4{
+        margin-left: 13px;
+    }
+
+    .wd img{
+        height: 173px;
+    }
+
+    .wd p{
+        margin-left: -154px;
+        margin-top: 44px;
+        width: 83.5%;
+        font-size: 15.7px;
+    }
+
+    .wd:nth-child(5){
+        margin-left: 11px;
+    }
+
+    .project1, .project2, .project3, .project4{
+        padding: 68px 10px;
+    }
+
+    .project2, .project4{
+        margin-top: 32px;
+    }
+
+    .cool p{
+        margin-right: 223px;
+    }
+
+    .social p{
+        margin-left: -87px;
+    }
+
+    .nav_links1 li, .nav_links2 li{
+        padding: 0px 26px;
+    }
+
+    .Story{
+        width: 51%;
+        margin-top: -270px;
+        margin-left: 344px;
+     }
+
+     .Story p{
+        font-size: 18px;
+     }
+
+     .social2 img{
+        margin-left: 280px;
+     }
+
+     .btttn{
+        margin-left: 137px;
+     }
+
+}
+
+/* For Iphone SE* */
+
+@media only screen and (min-width:576px) and (max-width:767px){
+    .container{
+        max-width: 621px;
+    }
+
+    .nav_links li{
+        padding: 0px 16px;
+    }
+
+    li, a{
+        font-size: 18px;
+    }
+
+    .self p{
+        font-size: 20px;
+    }
+
+    .bg{
+        height: 436px;
+    }
+
+    .line{
+        margin-top: -449px;
+        margin-left: 298px;
+    }
+
+    .imgg{
+        width: 48%;
+        margin-right: 0px;
+        margin-top: 111px;
+    }
+
+    .btnsubmit{
+        padding: 5px 5px;
+    }
+
+    .pic{
+        width: 36%;
+        padding-left: 16px;
+    }
+
+    .btn{
+        padding: 5px 5px;
+        margin-left: 116px;
+    }
+
+    .wd:nth-child(1){
+        margin-left: 4px;
+    }
+
+    .webdesign{
+        width: 100%;
+    }
+
+    .wd{
+        width: 24.8%;
+    }
+
+    .wd h4{
+        margin-left: 39px;
+        margin-top: 10px;
+    }
+
+    .wd:nth-child(3) h4, .wd:nth-child(4) h4, .wd:nth-child(8) h4{
+        margin-left: 4px;
+    }
+
+    .wd img{
+        height: 153px;
+        box-shadow: 0px 0px 4px 1px white;
+    }
+
+    .wd p{
+        margin-left: -133px;
+        margin-top: 44px;
+        width: 83.5%;
+        font-size: 13px;
+    }
+
+    .wd:nth-child(5){
+        margin-left: 5px;
+    }
+
+    .project1, .project2, .project3, .project4{
+        padding: 55px 10px;
+    }
+
+    .project1, .project3{
+        margin-top: -7px;
+    }
+
+    .project2, .project4{
+        margin-top: 38px;
+    }
+
+    .layout, .seo, .high{
+        width: 32.2%;
+    }
+
+    .cool p{
+        margin-right: 163px;
+    }
+
+    .social p{
+        margin-left: -122px;
+    }
+
+    .nav_links1 li{
+        padding: 0px 19px;
+    }
+
+    .Story{
+        width: 52%;
+        margin-top: -286px;
+        margin-left: 291px;
+    }
+    
+    .Story p{
+        font-size: 17px;
+    }
+
+    .nav_links2 li{
+        padding: 0px 19px;
+    }
+
+    .social2 img{
+        margin-left: 225px;
+    }
+
+    .btttn{
+        padding: 5px 5px;
+        margin-left: 111px;
+    }
+}
+
+/* For Iphone SE Portrait mode */
+
+@media only screen and (max-width:540px){
+    .container{
+        max-width: 100%;
+        padding: 0px 30px;
+    }
+
+    li a{
+        font-size: 12px;
+    }
+
+    .nav_links li{
+        padding: 0px 4px;
+    }
+
+    nav{
+        padding-top: 6px;
+        padding-left: 10%;
+        width: 68%;
+    }
+
+    .bg{
+        height: 330px;
+    }
+
+    .line{
+        margin-top: -449px;
+        margin-left: 212px;
+    }
+
+    .imgg{
+        width: 60%;
+    margin-right: 0px;
+    margin-top: 130px;
+    margin-left: -46px;
+    }
+
+    .btnsubmit{
+        margin-top: 0px;
+        margin-left: -2px;
+        padding: 1px 1px;
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+
+    .bg-img{
+        margin-left: -36px;
+    }
+
+    .self p{
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .self{
+        margin-left: -69px;
+        margin-top: 50px;
+    }
+
+    .self h1{
+        font-size: 20px;
+    }
+
+    .self h6{
+        font-size: 20px;
+    }
+
+    .pic{
+        display: none;
+    }
+
+    .bio{
+        width: 100%;
+    }
+
+    .bio p{
+        font-size: 14px;
+    }
+
+    .logo2{
+        margin-left: -17px;
+    }
+
+    .btn{
+        padding: 2px 2px;
+        font-size: 11px;
+        font-weight: 600;
+        margin-left: 132px;
+    }
+
+    .myskill h2{
+        padding-top: 17px;
+    }
+
+    .wd img{
+        height: 188px;
+    }
+
+    .wd p{
+        font-size: 15px;
+        margin-left: -166px;
+    }
+
+    .wd{
+        width: 65%;
+    }
+
+    .wd:nth-child(1){
+        margin-left: 73px;
+    }
+
+    .wd:nth-child(2), .wd:nth-child(3), .wd:nth-child(4), .wd:nth-child(6), .wd:nth-child(7), .wd:nth-child(8){
+        margin-top: 30px;
+        margin-left: 73px;
+    }
+
+    .wd:nth-child(5){
+        margin-top: 33px;
+        margin-left: 74px;
+    }
+
+    .wd:nth-child(3) h4, .wd:nth-child(4) h4, .wd:nth-child(8) h4{
+        margin-left: 23px;
+    }
+
+    .project1, .project2, .project3, .project4{
+        padding: 18px 10px;
+        border-radius: 13px;
+    }
+
+    .project1 a, .project2 a, .project3 a, .project4 a{
+        font-size: 17px;
+    }
+
+    .project1, .project3{
+        margin-top: -12px;
+    }
+
+    .project2, .project4{
+        margin-top: 38px;
+    }
+
+    .layout, .seo, .high{
+        width: 51%;
+    }
+
+    .layout p, .seo p, .high p {
+        font-size: 16px;
+        width: 200%;
+    }
+
+    .seo, .high{
+        margin-top: -23px;
+    }
+
+    .whats img{
+        width: 300px;
+    }
+
+    .cool img {
+        width: 114px;
+    }
+
+    .cool p{
+        margin-right: 48px;
+        font-size: 13px;
+    }
+
+    .social img{
+        width: 23px;
+    }
+
+    .social p{
+        font-size: 14px;
+        margin-left: -34px;
+    }
+    
+    .linkedin, .facebook, .instagram{
+        margin-left: 8px;
+        margin-top: 3px;
+    }
+
+    .nav_links1 li{
+        padding: 0px 7px;
+    }
+
+    .living img{
+        width: 37%;
+        padding-left: 0px;
+    }
+
+    .Story{
+        width: 59%;
+        margin-top: -299px;
+        margin-left: 138px;
+    }
+
+    .Story p{
+        font-size: 15px;
+    }
+
+    .nav_links2 li{
+        padding: 0px 7px;
+    }
+
+    .parallax{
+        min-height: 187px;
+    }
+
+    .fillhead p{
+        font-size: 15px;
+        margin: 13px 0px 25px 0px;
+    }
+
+    .fillhead h2{
+        margin: 30px 0px 8px 0px;
+    }
+
+    .form{
+        padding: 12px;
+        width: 81%;
+    }
+
+    .btttn{
+        margin-left: 80px;
+        padding: 2px 12px;
+    }
+
+    .social2 img{
+        width: 135px;
+        margin-left: 127px;
+    }
+}
+
+@media only screen and (max-width:280px){
+    .container{
+        max-width: 100%;
+        padding: 0px 37px;
+    }
+
+    .bg-img{
+        margin-left: -54px;
+    }
+
+    nav{
+        padding-left: 0%;
+        width: 67%;
+        margin-top: -3px;
+    }
+
+    .nav_links li{
+        padding: 0px 1px;
+    }
+
+    .nav_links li a, .nav_links1 li a, .nav_links2 li a{
+        font-size: 10px;
+    }
+
+    .line{
+        margin-left: 145px;
+        width: 6rem;
+        height: 2px;
+    }
+
+    .self h6{
+        font-size: 16px;
+    }
+
+    .self h1{
+        font-size: 17px;
+    }
+
+    .self p{
+        font-size: 13px;
+        width: 113%;
+    }
+
+    .imgg{
+        margin-top: 168px;
+    }
+
+    .bio h2{
+        font-size: 20px;
+    }
+
+    .bio h3{
+        font-size: 16px;
+    }
+
+    .one, .one1, .one2, .one3, .one4, .one5, .one6, .one7{
+        width: 100%;
+    }
+
+    .btn{
+        margin-left: 88px;
+    }
+
+    .myskill h2{
+        font-size: 20px;
+    }
+
+    .myskill h3{
+        font-size: 16px;
+    }
+
+    .webdesign{
+        margin-left: -49px;
+        width: 139.8%;
+    }
+
+    .wd img{
+        height: 188px;
+    }
+
+    .wd p{
+        font-size: 15px;
+        margin-left: -159px;
+    }
+
+    .wd{
+        width: 65%;
+    }
+
+    .wd h4{
+        margin-left: 42px;
+    }
+
+    .wd:nth-child(1){
+        margin-left: 73px;
+    }
+
+    .wd:nth-child(2), .wd:nth-child(3), .wd:nth-child(4), .wd:nth-child(6), .wd:nth-child(7), .wd:nth-child(8){
+        margin-top: 30px;
+        margin-left: 73px;
+    }
+
+    .wd:nth-child(5){
+        margin-top: 33px;
+        margin-left: 74px;
+    }
+
+    .wd:nth-child(3) h4, .wd:nth-child(4) h4, .wd:nth-child(8) h4{
+        margin-left: 23px;
+    }
+
+    .project1, .project2, .project3, .project4{
+        padding: 12px 10px;
+        border-radius: 13px;
+    }
+
+    .project1 a, .project2 a, .project3 a, .project4 a{
+        font-size: 11px;
+    }
+
+    .project1, .project3{
+        margin-top: -12px;
+    }
+
+    .project2, .project4{
+        margin-top: 7px;
+    }
+
+    .layout, .seo, .high{
+        width: 51%;
+    }
+
+    .layout p, .seo p, .high p {
+        font-size: 16px;
+        width: 200%;
+    }
+
+    .seo, .high{
+        margin-top: -23px;
+    }
+
+    .whats img{
+        width: 231px;
+    }
+
+    .cool img {
+        width: 114px;
+        margin-left: -25px;
+    }
+
+    .cool p{
+        margin-right: 48px;
+        font-size: 13px;
+    }
+
+    .social img{
+        width: 17px;
+    }
+
+    .social p{
+        font-size: 11px;
+        margin-left: -34px;
+        margin-bottom: 14px;
+    }
+    
+    .linkedin, .facebook, .instagram{
+        margin-left: 8px;
+        margin-top: 3px;
+    }
+
+    .nav_links1 li{
+        padding: 0px 4px;
+    }
+
+    .living img{
+        width: 161%;
+    }
+
+    .Story{
+        width: 100%;
+        margin-top: 11px;
+        margin-left: 3px;
+    }
+
+    .nav_links2 li{
+        padding: 0px 4px;
+    }
+
+    .btttn{
+        margin-left: 36px;
+    }
+
+    .social2 img{
+        margin-left: 83px;
+    }
+
+    .form-control{
+        padding: 11px;
+        font-size: 10px;
+    }
+}
