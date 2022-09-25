@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyHack | Contact Us Page</title>
+    <link rel="stylesheet" text="text/css" href="css/style.css">
+    <link href="css/responsive.css" type="text/css" rel="stylesheet"/>
+    <link href="images/logo.png" type="image/png" rel="shortcut icon"/>
+</head>
+<body>
+    <div class="senior">
+        <a href="index.html"><img src="images/SkyHack.png" class="logo" alt="logo"/></a>
+        <nav>
+            <ul class="nav_links2">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="index.html#portfolio">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+    </nav>
+</div>
+
+<section class="contact_us">
+    <div class="parallax">
+    </div>
+</section>
+
+<section class="fill">
+    <div class="container">
+        <div class="fillhead">
+            <h2>Get In Touch</h2>
+            <p>If you want to get in touch with me, you can email me at <i><b>sudhir.kumar4431@gmail.com</b></i> or fill out the contact form below. We would be glad to help you in growing your online presence.</p>
+        </div>
+
+            <form class="form" onsubmit="sendEmail(); reset(); return false;">            
+                <label for="fullname">Full Name</label>
+                <input type="text" placeholder="Enter your Full name" class="form-control" id="name" required/><br>
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter your email address" class="form-control" id="ema" required/><br>
+                <label for="phone">Contact number</label>
+                <input type="number" placeholder="Enter your phone number" class="form-control" id="Phone"/><br>
+                <label>Leave me a message..</label><br>
+                <input type="text" class="Msg"/><br>
+                <input type="submit" value="SUBMIT" class="btttn"/>
+            </form>
+    </div>
+
+    <div class="social2">
+        <img src="images/6964.jpg"/>
+    </div>
+</section>
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    function sendEmail(){
+        Email.send({
+    Host : "smtp.gmail.com",
+    Username : "sudhir.kumar4431@gmail.com",
+    Password : "996B617EBD89EDE39DFFFFE29B9BF43CFD9A",
+    To : 'sudhir.kumar4431@gmail.com',
+    From : document.getElementById("ema").value,
+    Subject : "Contact form enquiry",
+    Body : "Name: " + document.getElementById("name").value + "<br> Email: " + document.getElementById("ema").value + "<br> Phone number: " + document.getElementById("Phone").value + "<br> Message: " + document.getElementsByClassName(".Msg").value
+}).then(
+  message => alert("Message sent successfully")
+);
+}
+</script>
+</body>
+</html>
